@@ -18,7 +18,7 @@ while True :
 
     print ('_________________________________________________________________')
     print("1 : effectuer une operation ")
-    print("2 : quitter laplication ")
+    print("2 : quitter l'application ")
     choix= int(input("les choix son selectionner avec des numero veuiller rentre votre choix : "))
     print ('_________________________________________________________________')
 
@@ -32,16 +32,16 @@ while True :
             print(opp1, " + ", opp2, " = ",add(opp1,opp2))
 
         if signe == "-":
-            print(sub(opp1,opp2))
+            print(opp1, " - ", opp2, " = ",sub(opp1,opp2))
 
         if signe == "x" or signe == "X" or signe == "*":
-            print(mult(opp1,opp2))
+            print(opp1, " x ", opp2, " = ",mult(opp1,opp2))
 
         if signe == "/":
-            print(div(opp1, opp2))
+            print(opp1, " ÷  ", opp2, " = ",div(opp1,opp2))
 
         if signe == "**":
-            print(pow(opp1,opp2))
+            print(opp1, " ** ", opp2, " = ",pow(opp1,opp2))
 
     if choix == 2 :
         break
