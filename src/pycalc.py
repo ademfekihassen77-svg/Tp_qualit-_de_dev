@@ -5,7 +5,10 @@ signe = input("veuiller rentre le signe de lopperation : ")
 opp2 = input("veuiller rentre le deuxiemme opperant : ")
 
 def mult(a,b):
-    return a*b
+    res = 0
+    for i in range (b):
+        res = res + a
+    return  res
 
 def div(a,b):
     return a/b
@@ -15,5 +18,6 @@ def sub(a,b):
     return a-b
 def pow(a,b):
     return a**b
+
 
 
